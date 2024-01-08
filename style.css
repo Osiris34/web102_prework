@@ -21,6 +21,10 @@ body {
 
 .stats-container {
     display: flex;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
+
 }
 
 .stats-card {
@@ -41,7 +45,12 @@ body {
     flex-wrap: wrap;
     justify-content: space-around;
 }
+img{
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #FFFFFF;
 
+}
 .game-img {
     width: 100%;
     border-radius: 5px;
@@ -72,4 +81,7 @@ button {
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+}
+button:hover{
+    cursor: pointer;
 }
